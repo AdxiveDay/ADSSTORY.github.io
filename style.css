@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Prompt",sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto ;
+    max-width: 1100px;
+}
+
+.container header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: -webkit-linear-gradient(#fff531 10%, #ff145e 90%);
+    padding: 18rem;
+    width: 2000px;
+}
+
+.container header h1 {
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
+    animation: MoveUpDown 2s ease infinite;
+}
+
+.container header button {
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    width: 10rem;
+    background-color: #ff145e;
+}
+
+.container header button a {
+    color: #fff531;
+    text-decoration: none;
+}
+
+@keyframes MoveUpDown {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.container header button:hover {
+    background-color: #b71045;
+    transform: translateY(-2px);
+    transition: 0.5s ease;
+}
+
+.container .space {
+    margin: 5rem 0;
+}
+
+.container .detail {
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.detail .info h3 {
+    font-size: 2rem;
+    color: #ff0051;
+}
+
+.detail .info button {
+    padding: 0.5rem;
+    margin: 2rem;
+    border: none;
+    border-radius: 9px;
+    font-size: 1.2rem;
+    width: 10rem;
+    background-color: #ff0051;
+}
+
+.detail .info button:hover {
+    transform: translateY(-2px);
+    transition: 0.5s ease;
+}
+
+.detail .info button a {
+    color: #fff531;
+    text-decoration: none;
+}
+
+.detail .timeline .line1 {
+    margin-top: 20rem;
+}
+
+.detail .timeline .line1 h1 {
+    font-size: 3.5rem;
+    color: #ffa231;
+}
+
+.detail .timeline .line1 h3 {
+    color: #ff0051;
+}
+
+.detail .timeline .line2 {
+    margin-top: 5rem;
+}
+
+.detail .timeline .line2 h1 {
+    color: #ff5031;
+    font-size: 3.5rem;
+}
+
+.detail .timeline .line2 h3 {
+    color: #ff0019;
+}
+
+.detail .timeline .line3 {
+    margin-top: 5rem;
+}
+
+.detail .timeline .line3 h1 {
+    font-size: 3.5rem;
+    background: -webkit-linear-gradient(#3134ff 30%, #e714ff 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.detail .timeline .line3 h3 {
+    color: #080a81;
+}
+
+.detail .timeline .line3 button {
+    margin: 2rem 0;
+    padding: 0.5rem;
+    width: 10rem;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+    background: -webkit-linear-gradient(#ff31d2 10%, #7214ff 90%);
+}
+
+.detail .timeline .line3 button a {
+    color: white;
+    text-decoration: none;
+}
+
+.detail .timeline .line3 button:hover {
+    transform: translateY(-2px);
+    transition: 0.5s ease;
+}
+
+.detail .Exwork {
+    margin-top: 10rem;
+}
+
+.detail .Exwork h1 {
+    font-size: 3.5rem;
+    color: #ff004c;
+    margin-bottom: 3rem;
+}
+
+.allimg {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    max-width: 1000px;
+    margin: 0 auto; 
+}
+.allimg img {
+    width: 100%;
+    height: auto;
+}
+
+.pri {
+    margin-top: 8rem;
+}
+
+.allimg1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    max-width: 1000px;
+    margin: 5rem auto; 
+}
+
+.pri h1 {
+    font-size: 3.5rem;
+    color: #ff0019;
+}
+
+.pri p {
+    font-size: 1.5rem;
+}
+
+.pri img {
+    width: 100%;
+    height: auto;
+}
